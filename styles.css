@@ -1,6 +1,6 @@
 /* cyrillic-ext */
 @font-face {
-    font-family: 'Space Mono';
+    font-family:'Poppins';
     /*Font style is of choice*/
     /*Font weight is of choice*/
     font-display: swap;
@@ -17,6 +17,9 @@
 
     --fw-normal: 400;
     --fw-bolder: 700;
+
+    --ff-monospace:'Space Mono';
+    --ff-poppins:'Poppins';
 
     --clr-white: #fff;
     --clr-charcoal: #131313;
