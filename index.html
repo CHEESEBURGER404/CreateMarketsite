@@ -1,18 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home!</title>
-    <link rel="stylesheet" href="./styles.css">
- 
-    
-
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/469e185b0f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar_wrapper">
-            <a href="#" id="navbar_logo"><i class="fa-solid fa-snowflake"></i>PS LAB 2025</a> <!--Container For the Logo-->
+            <a href="index.html" id="navbar_logo"><img src="efctslogo.png" alt="Logo" style="width: 50px; height: 50px;"> PS LAB 2025</a> <!--Container For the Logo-->
             <div class="navbar_toggle" id="mobile_menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -27,6 +29,9 @@
                     <a href="index2.html" class="navbar_link_item">About Us</a>  
                 </LI>
                 <LI class="navbar_link">
+                    <a href="#Contact" class="navbar_link_item">Contact Us</a>  
+                </LI>
+                <LI class="navbar_link">
                     <a href="index3.html" class="navbar_link_item">BPA Involvement</a>
                 </LI>
                 <LI class="navbar_button">
@@ -35,83 +40,134 @@
             </ul>
         </div>
     </nav>
-    <!--_______________________________________________________-HERO SECTION-________________________________________________________-->    
+
+    <!--_______________________________________________________-Featured On-screen-________________________________________________________-->    
     <section class="features">
         <div class="features-container">
-            <img src="maxresdefault2.jpg"class=feature>
+            <img src="./maxresdefault2.jpg"class=feature>
         </div>
-    <!------------------------------------------------This is the Projects part of the Hero_-------------------->
     </section>
+        <!--_______________________________________________________-HERO SECTION-________________________________________________________-->    
+
     <section class="Hero">
-        <div class="hero-container"><!--This is a box model-->
+        <div class="hero-container"><!--This is a box model (this is where the whole entire Hero goes. THEN the footer)-->
+            <div class="Intro">
+                <h2>Welcome to Eastland Fairfield Career Center's</h2>
+                <h1>Programming Lab</h1>
+            </div>
+            <!--Projects section of the Hero-->
             <div class="program-wrapper"><!--This is a box model for the projects-->
                 <div class="program">
-                    <img src="sample.png" id="sample-img">
+                    <img src="./img/Python.svg.png" id="sample-img">
                     <h1 class="program-title">
-                        Untitled
+                        Python
                     </h1>
                     <p class="program-desc">
-                        No description provided
+                        Click The Button Below To Download An Example Of Our Python Projects!
                     </p>
+                    <a href="https://github.com/sithfish123/PythonProjectExample">
+                        <button type="button" class="btn btn-secondary">Python Project</button>  
+                        </a>
                 </div>
-    <!----------__________________________________---------------_________________________________________________________________________________________________________________+-->
                 <div class="program">
-                    <img src="#sample-img" id="sample-img">
+                    <img src="./img/C_Sharp_Logo_2023.svg.png" id="sample-img">
                     <h1 class="program-title">
-                        Untitled
+                        C#
                     </h1>
                     <p class="program-desc">
-                        No description provided
+                        Click The Button Below To Download An Example Of Our C# Projects!
                     </p>
+                    <a href="https://github.com/sithfish123/StudentClassExample">
+                        <button type="button" class="btn btn-secondary">C# Project</button>  
+                        </a>
                 </div>
-    <!----------__________________________________---------------_________________________________________________________________________________________________________________+-->
+                <div class="program">
+                    <img src="./img/HTML5_logo_and_wordmark.svg.png" id="sample-img">
+                    <h1 class="program-title">
+                        HTML
+                    </h1>
+                    <p class="program-desc">
+                        Click The Button Below To Download An Example Of Our HTML Projects!
+                    </p>
+                        <a href="https://github.com/sithfish123/WebProject">
+                        <button type="button" class="btn btn-secondary">HTML Project</button>  
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--________________________________________________________________________________________________________________________-->
+    <section class="footer">
+            <div class="footer_links">
+                <div class="footer_links_wrapper">
+                    <div class="footer_link_item">
+                        <h2>About us</h2>
+                        <a href="#">Testimonials</a>
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer_link_item">
+                        <h2>Support</h2>
+                        <a href="#">Terms Of Service</a>
+                        <a href="#">How It Works</a>
+                        <a href="#">FAQs</a>
+                    </div>
+                    <div class="footer_link_item">
+                        <h2>Contact Us</h2>
+                        <a href="#">Locations</a>
+                        <a href="#">Contact Form</a>
+                        <a href="#">Visitors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social_media">
+                <div class="social_media_wrapper">
+                    <i class="Logo"></i> <!--THis is the Logo-->
+                </div>
+                <div class="social_media_icons">
+                    <a
+                    href="#none"
+                    target="_blank"
+                    class="social_media_link"
+                    >
+                    <i class="Logo">@@ Nowhere</i> <!--THis is the Logo-->
+                    </a>
 
-                <div class="program">
-                    <img src="#sample-img" id="sample-img">
-                    <h1 class="program-title">
-                        Untitled
-                    </h1>
-                    <p class="program-desc">
-                        No description provided
-                    </p>
-                </div>
-    <!----------__________________________________---------------_________________________________________________________________________________________________________________+-->
+                    <a 
+                    href="https://www.facebook.com/efcts/" 
+                    target="_blank" 
+                    class="social_media_link">
+                        <i class="fa-brands fa-square-facebook">MyFace</i>
+                    </a>
 
-                <div class="program">
-                    <img src="sample.png" id="sample-img">
-                    <h1 class="program-title">
-                        Untitled
-                    </h1>
-                    <p class="program-desc">
-                        No description provided
-                    </p>
-                </div>
-    <!----------__________________________________---------------_________________________________________________________________________________________________________________+-->
+                    <a 
+                    href="https://www.instagram.com/efctspix/" 
+                    target="_blank" 
+                    class="social_media_link">
+                        <i class="fa-brands fa-square-instagram">Instant Noodles</i>
+                    </a>
 
-                <div class="program">
-                    <img src="#sample-img" id="sample-img">
-                    <h1 class="program-title">
-                        Untitled
-                    </h1>
-                    <p class="program-desc">
-                        No description provided
-                    </p>
-                </div>
-    <!----------__________________________________---------------_________________________________________________________________________________________________________________+-->
+                    <a 
+                    href="https://twitter.com/EFCTS" 
+                    target="_blank" 
+                    class="social_media_link">
+                        <i class="fa-brands fa-square-x-twitter">
+                            Tweeter
+                        </i>
+                    </a>
 
-                <div class="program">
-                    <img src="#sample-img" id="sample-img">
-                    <h1 class="program-title">
-                        Untitled
-                    </h1>
-                    <p class="program-desc">
-                        No description provided
-                    </p>
+                    <a 
+                    href="https://www.youtube.com/channel/UCgJ-dVHrsf5W9vEgA90TOJw" 
+                    target="_blank" 
+                    class="social_media_link">
+                        <i class="fa-brands fa-square-youtube">
+                            Not your tube
+                        </i>
+                    </a>
                 </div>
-    <!----------__________________________________---------------_________________________________________________________________________________________________________________+-->
             </div>
         </div>
     </section>
     
+    <script src="./../js/app.js"></script>
 </body>
 </html>
