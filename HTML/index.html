@@ -1,11 +1,12 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home!</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -14,27 +15,15 @@
 <body>
     <nav class="navbar">
         <div class="navbar_wrapper">
-            <i id="logo">
+            <button class="logo">
                 <!--This is a customizable logo-->
-                <div class="logo"
-                style="
-                border: 3px solid white;
-                width: 0.125rem; height:3rem;
-                margin: 0.5rem 0.36rem auto;
-                "
-                id="node1">
-                <!----->
-                </div>
-                <div class="logo"
-                style="
-                border: 3px solid white;
-                width: 2.8rem; height:0.125rem;
-                margin-left:0.5rem; margin-bottom:0.36rem;
-                "
-                id="node2">
-                <!----->
-                </div>
-            </i>
+                <div id="node1"><!---Height node--></div>
+                <div id="node2"><!---Top node--></div>
+                <div id="node3"><!---Middle node--></div>
+                <div id="node4"><!---Bottom node--></div>
+                <!--When The Logo is clicked you have the option to change the color-->
+            </button>
+            <script src="code.js"></script>
             <a href="index.html" id="navbar_logo">Programming and Software Development</a> 
             <div class="navbar_toggle" id="mobile_menu">
                 <span class="bar"></span>
