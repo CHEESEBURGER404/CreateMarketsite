@@ -1,4 +1,5 @@
 
+
 @font-face 
 {
     font-family:"Space-Mono";
@@ -71,21 +72,70 @@
         font-family: 'Space Mono';
         font-weight: 700;
     }
-        .navbar_wrapper{
-            display: flex;
-            justify-content: space-between;
-            height: 6rem;
-            width: 100%;
-            margin: 0 auto;
-            padding: 0 3rem;
-            z-index: 1;
+    .navbar_wrapper{
+        display: flex;
+        justify-content: space-around;
+        height: 6rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 4rem;
+        z-index: 1;
         }
+        
         .navbar_menu_container
         {
+            border: 2px solid;
             display: flex;
             align-items: center;
             list-style: none;
+
         }
+        #navbar_logo
+        {
+            display: flex;
+            font-size: xx-large;
+            border: 2px solid;
+            align-items: center;
+            margin-right: 100px;
+            /*---*/
+            text-decoration: none;
+            -webkit-background-clip: text;
+        }
+        /*MEDIA QUERY: #LOGO_____________PARENT AND CHILDREN*/
+        .logo
+        {
+            border: 8px white solid;
+            border-radius: 20%;
+            width: 80px; height: 80px;
+            margin: 1% -3rem;
+            /*This is the whole entire Logo-shape*/
+            #node1
+            {
+                width: 65px; height: 2px;
+                border: 5px black solid;
+                margin:-6px;
+            }
+            #node2
+            {
+                width:2px ; height: 55px;
+                border: 5px black solid;
+                margin: 1 auto ;
+            }
+            #node3
+            {
+                width:60px ; height: 2px;
+                border: 4px black solid;
+                margin:1 auto;
+            }
+            #node4
+            {
+                width:60px ; height: 2px;
+                border: 4px black solid;
+                margin: 1 auto;
+            }
+        }
+
+
         
         .navbar_link
         {
@@ -123,26 +173,10 @@
             border-radius: 8px;
         }
         
-        #navbar_logo
-        {
-            background: linear-gradient(to bottom, var(--clr-eastland-dark-blue), var(--clr-eastland-light-blue));
-            background-size: 100%;
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            font-size: 2rem;
-            font-weight: 700;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        #logo
-        {
-            border: 1px white solid;
-            border-radius: 50%;
-            width: 68px; height: 68px;
-            margin-right: -200px;margin-top: 1rem;
-            /*Making the Logo*/
-        }
+        
+
+
+
 
         .navbar_link :hover{
             color: var(--clr-eastland-light-blue);
